@@ -1,0 +1,29 @@
+.main div{
+    height: 160px;
+}
+
+.one {
+    border: solid red;
+}
+
+.two {
+    border: solid blue;
+}
+
+.three {
+   border: solid green; 
+}
+
+.four {
+    border: solid violet;
+}
+
+.header {
+    height: 25px;
+    border: solid black;
+}
+
+.footer {
+    height: 25px;
+    border: solid black;
+}
