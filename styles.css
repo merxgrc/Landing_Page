@@ -1,29 +1,58 @@
 .main div{
-    height: 160px;
+    height: 170px;
+    padding: 10px;
 }
 
 .one {
+    color: white;
+    background-color: #1F2937;
+    border: solid red;
+    display: flex;
+}
+
+.one .oneone p{
     border: solid red;
 }
 
+.one .onetwo {
+    border: solid green;
+    color: white;
+    height: 50px;
+}
+
 .two {
-    border: solid blue;
+    background-color: white;
 }
 
 .three {
-   border: solid green; 
+   background-color: #E5E7EB;
 }
 
 .four {
-    border: solid violet;
+    
 }
 
 .header {
     height: 25px;
-    border: solid black;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+.header .head1 {
+    flex:2 1 0%;
+    padding-left: 100px;
+}
+
+.header .head2 {
+    
+    
 }
 
 .footer {
     height: 25px;
-    border: solid black;
+    background-color: #1F2937;
+    color: white;
 }
