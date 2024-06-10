@@ -1,6 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
 .main div{
     height: 170px;
-    padding-left: 50px;
 }
 
 .one {
@@ -9,6 +24,7 @@
     border: solid red;
     display: flex;
     padding-top: 5px;
+    justify-content: center;
 }
 
 .one .oneone {
@@ -18,8 +34,7 @@
 }
 
 .one .oneone p{
-    border: solid red;
-  
+    border: solid white;
 }
 
 .one .oneone .cap {
@@ -63,7 +78,8 @@
     color: white;
     display: flex;
     gap: 10px;
-    padding-right: 100px;
+    
+    
 }
 
 .header .head1 {
