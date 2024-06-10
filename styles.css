@@ -1,6 +1,6 @@
 .main div{
     height: 170px;
-    padding: 10px;
+    padding-left: 50px;
 }
 
 .one {
@@ -8,16 +8,41 @@
     background-color: #1F2937;
     border: solid red;
     display: flex;
+    padding-top: 5px;
+}
+
+.one .oneone {
+    padding-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .one .oneone p{
     border: solid red;
+  
+}
+
+.one .oneone .cap {
+    font-size: 30px;
+    height: 70px;
+    width: 140px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.one .oneone .thicc {
+    font-size: 10px;
+    width: 170px;
+    margin-top: 0.1rem;
 }
 
 .one .onetwo {
     border: solid green;
     color: white;
-    height: 50px;
+    height: 130px;
+    width: 210px;
+    margin-left: 80px;
+    margin-top: 0.5rem;
 }
 
 .two {
