@@ -21,7 +21,6 @@ body {
 .one {
     color: white;
     background-color: #1F2937;
-    border: solid red;
     display: flex;
     padding-top: 5px;
     justify-content: center;
@@ -33,12 +32,21 @@ body {
     padding-top: 5px;
 }
 
+.one .oneone .submit {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    font-size: 15px
+}
+
 .one .oneone p{
-    border: solid white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .one .oneone .cap {
     font-size: 30px;
+    font-style: Arial, Helvetica, sans-serif;
     height: 70px;
     width: 140px;
     margin-top: 0.5rem;
@@ -52,7 +60,7 @@ body {
 }
 
 .one .onetwo {
-    border: solid green;
+    
     color: white;
     height: 130px;
     width: 210px;
@@ -62,10 +70,39 @@ body {
 
 .two {
     background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.two .container {
+    display: flex;
+    text-align: center;
+    height: 140px;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.two .container .twotwo {
+    border: solid #3882f6;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
 }
 
 .three {
    background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+   padding: 40px;
 }
 
 .four {
@@ -85,11 +122,22 @@ body {
 .header .head1 {
     flex:2 1 0%;
     padding-left: 100px;
+    font-size: 23px;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header .head2 {
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .head4 {
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .footer {
